@@ -39,7 +39,7 @@ body {
 .project {
 	width: 100%;
 	height: 500px;
-	background-image: url(https://img00.deviantart.net/6b01/i/2014/044/4/7/ogre_concept_by_jubjubjedi-d7694bl.jpg);
+	background-image: url(../img/card-ogre.jpg);
 	background-size: cover;
 	background-position: center;
 	padding: 0 !important;
@@ -47,15 +47,15 @@ body {
 }
 
 .project-2 {
-	background-image: url(https://vignette.wikia.nocookie.net/defiaseu/images/4/4b/Female-Paladin-l.jpg/revision/latest?cb=20110203224240);
+	background-image: url(../img/card-paladin.jpg);
 }
 
 .project-3 {
-	background-image: url(https://pre00.deviantart.net/620e/th/pre/f/2013/047/6/8/lightning_mage_by_argent_sky-d5v4glb.jpg);
+	background-image: url(../img/card-mage.jpg);
 }
 
 .project-4 {
-	background-image: url(http://www.capsulecomputers.com.au/wp-content/uploads/2013/04/MightMagic-X-Legacy-Elf-Ranger-Female-01.jpg);
+	background-image: url(../img/card-rogue.jpg);
 }
 
 .project-hover {
@@ -117,7 +117,7 @@ body {
    #   Last Change   : 08/02/2015
    #
    ##################################################################### */
-   
+
 @import url(http://fonts.googleapis.com/css?family=Roboto);
 
 * {

@@ -11,10 +11,15 @@ class App extends Component {
       <div className="App">
         <NavBar />
         <Carousel />
-        <Card src="https://img00.deviantart.net/6b01/i/2014/044/4/7/ogre_concept_by_jubjubjedi-d7694bl.jpg" title="Ogre" />
-        <Card src="https://vignette.wikia.nocookie.net/defiaseu/images/4/4b/Female-Paladin-l.jpg/revision/latest?cb=20110203224240" title="Paladin" />
-        <Card src="https://pre00.deviantart.net/620e/th/pre/f/2013/047/6/8/lightning_mage_by_argent_sky-d5v4glb.jpg" title="Mage" />
-        <Card src="http://www.capsulecomputers.com.au/wp-content/uploads/2013/04/MightMagic-X-Legacy-Elf-Ranger-Female-01.jpg" title="Ranger" />
+
+          <div class="container-fluid">
+          <div class="title-arch">Our Project<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pulvinar ex pulvinar est laoreet ullamcorper.</p></div>
+        <Card pictureClass=""  paragraph="test" title="Ogre"/>
+        <Card pictureClass="project-2"  paragraph="test" title="Paladin" />
+        <Card pictureClass="project-3"  paragraph="test" title="Mage" />
+        <Card pictureClass="project-4"  paragraph="test" title="Rogue" />
+        <div class="clearfix"></div>
+            </div>
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Welcome to React</h1>
@@ -22,6 +27,8 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
+
+
       </div>
     );
   }
