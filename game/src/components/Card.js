@@ -10,7 +10,7 @@ class Card extends Component {
 
                 <hr />
                 <p>{this.props.paragraph}</p>
-                <a href="#">CHOOSE</a>
+                {this.props.children}
             </div>
         </div>
     );
