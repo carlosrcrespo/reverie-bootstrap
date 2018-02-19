@@ -3,6 +3,7 @@ import NavBar from './components/NavBar.js';
 import Carousel from './components/Carousel.js';
 import Card from './components/Card.js';
 import Footer from './components/Footer.js';
+import Signup from './components/Signup.js';
 import logo from './logo.svg';
 import './App.css';
 
@@ -53,7 +54,8 @@ class App extends Component {
           </Card>
         <div class="clearfix"></div>
             </div>
-
+            <br/>
+              <Signup />
 
               <Footer />
 {/* 	<p className="App-intro">
