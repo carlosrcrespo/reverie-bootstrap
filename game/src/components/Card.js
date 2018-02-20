@@ -9,7 +9,7 @@ class Card extends Component {
               <h2>{this.props.title}</h2>
 
                 <hr />
-                <p>{this.props.paragraph}</p>
+                {/*}<p>{this.props.paragraph}</p>*/}
                 {this.props.children}
             </div>
         </div>

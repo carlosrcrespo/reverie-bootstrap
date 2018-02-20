@@ -15,17 +15,19 @@ class App extends Component {
         <Carousel />
 
           <div class="container-fluid">
-          <div class="title-arch">Welcome to Reverie <p> "Try not to get yourself killed"</p></div>
+          <div class="title-arch">WELCOME TO REVERIE /ˈREV(Ə)RĒ <p>
+A STATE OF BEING PLEASANTLY LOST IN ONE'S THOUGHTS</p>
+          </div>
         <Card pictureClass=""  paragraph="test" title="BARBARIAN">
             <hr/>
-            <p>cruel wicked and inhuman</p>
+            <p>Cruel Wicked and Inhuman</p>
              <br/>
              <p>Attack: 7/10</p>
              <p>Hit Points: 3/10</p>
              <p>Speed: 6/10</p>
              <p>Range: 6/10</p>
         </Card>
-        <Card pictureClass="project-2"  paragraph="test" title="PALADIN" >
+        <Card pictureClass="project-2"  title="PALADIN" >
           <hr/>
            <p>Champion of a cause.</p>
            <br/>
@@ -34,7 +36,7 @@ class App extends Component {
            <p>Speed: 4/10</p>
            <p>Range: 2/10</p>
         </Card>
-        <Card pictureClass="project-3"  paragraph="test" title="MAGE" >
+        <Card pictureClass="project-3"  title="MAGE" >
           <hr />
           <p>Magician or learned person.</p>
           <br/>
@@ -43,7 +45,7 @@ class App extends Component {
           <p>Speed: 6/10</p>
           <p>Range: 6/10</p>
           </Card>
-        <Card pictureClass="project-4"  paragraph="test" title="ROGUE" >
+        <Card pictureClass="project-4"  title="ROGUE" >
           <hr/>
           <p>Wise & skilled archer.</p>
           <br/>
