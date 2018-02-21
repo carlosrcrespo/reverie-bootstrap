@@ -22,14 +22,23 @@ A STATE OF BEING PLEASANTLY LOST IN ONE'S THOUGHTS</p>
             <hr/>
             <p>Cruel Wicked and Inhuman</p>
              <br/>
-             <p>Attack: 7/10</p>
+             <p>Attack: 7/10
+               <div style="width: 400px; margin: 50px auto">
+                 <div className="progress">
+                   <div className="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="max-width: 60%">
+                   <span className="title">60%</span>
+                   </div>
+                 </div>
+               </div>
+
+             </p>
              <p>Hit Points: 3/10</p>
              <p>Speed: 6/10</p>
              <p>Range: 6/10</p>
         </Card>
         <Card pictureClass="project-2"  title="PALADIN" >
           <hr/>
-           <p>Champion of a cause.</p>
+           <p>Champion of a Cause.</p>
            <br/>
            <p>Attack: 6/10</p>
            <p>Hit Points: 6/10</p>
@@ -38,7 +47,7 @@ A STATE OF BEING PLEASANTLY LOST IN ONE'S THOUGHTS</p>
         </Card>
         <Card pictureClass="project-3"  title="MAGE" >
           <hr />
-          <p>Magician or learned person.</p>
+          <p>Magician or Learned Person.</p>
           <br/>
           <p>Attack: 7/10</p>
           <p>Hit Points: 3/10</p>
@@ -47,7 +56,7 @@ A STATE OF BEING PLEASANTLY LOST IN ONE'S THOUGHTS</p>
           </Card>
         <Card pictureClass="project-4"  title="ROGUE" >
           <hr/>
-          <p>Wise & skilled archer.</p>
+          <p>Wise & Skilled Archer.</p>
           <br/>
           <p>Attack: 5/10</p>
           <p>Hit Points: 4/10</p>
